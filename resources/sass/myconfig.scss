@@ -1,0 +1,15 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+$custom-theme : (
+    "orange" : #f60f60,
+    "chief" : #cf2b30,
+    "qualquer": #8db10b
+);
+
+$theme-colors : map-merge($theme-colors, $custom-theme);
+
